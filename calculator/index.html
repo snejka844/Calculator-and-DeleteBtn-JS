@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" async></script>
+</head>
+
+<body>
+    <span>Type 1st number: </span>
+    <input id="number_1" type="text">
+    <br>
+
+    <span>Type 2nd number:</span>
+    <input id="number_2" type="text">
+    <br>
+    
+    <span>Choose operation</span>
+    <select name="operations" id="operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+    
+    <button onclick="Calculate()">Calculate</button>
+    <br>
+    <br>
+    <span>Result:</span>
+    <input id="result" type="text">
+
+</body>
+
+</html>
